@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITHUB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Sora:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- HEADER -->
+
+
+        <header class="primary-header">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>FitHub</a>
+                        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                            <span class="fa-solid fa-bars" aria-hidden="true"></span>
+                            <span class="visually-hidden">Menu</span>
+                          </button>
+                    <nav class="primary-navigation" id="primary-navigation">
+                        <ul aria-label="Primary" role="list" class="nav-list">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="#programs-section">Programs</a></li>
+                            <li><a href="E-CommerceWebsite/index.html">Products</a></li>
+                            <li><a href="nutrition/index.html">Fitness & Nutrition</a></li>
+                            <li><a href="#contact-section">Contact us</a></li>
+                        </ul>
+                    </nav>
+                    <div id="login-Button" style="display: block;">
+                    <button onclick="window.location.href = 'http://localhost:3000/';" class="btn | display-sm-none display-md-inline-flex">Log in/Sign up</button>
+                    </div>
+                    <div id="profile-section" style="display: none; " class="fa-user">
+                        <!-- Profile information goes here -->
+                        Welcome User!
+                       <br> <button class="btn" id="logout-button">Log out</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- HERO-SECTION -->
+
+
+        <section class="hero-section | padding-block-900">
+            <div class="container">
+                <div class="flow | text-center-sm-only">
+                    <h1 class="fs-primary-heading fw-bold uppercase"><span class="special-text"> Fitness</span> is your
+                        passion <span class="special-text">with</span> aggression</h1>
+                    <p>Welcome to FitHub, your ultimate destination for all things fitness and well-being! At FitHub, we are dedicated to helping you unleash your full potential and achieve your health and fitness goals. Whether you're a seasoned fitness enthusiast or just starting your journey, our comprehensive programs, expert guidance, and community support are here to empower you every step of the way.</p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- INTRODUCTION-SECTION -->
+    <section class="introduction | padding-block-900 bg-secondary">
+        <div class="container">
+                <div class="flow introduction-content | text-center-sm-only">
+                    <h2 class="fs-secondary-heading fw-bold uppercase">Welcome to <span class="special-text">FitHub</span></h2>
+                    <p data-width="wide" class="fs-500">Join our vibrant community of fitness enthusiasts who are on the same path as you. Connect, inspire, and motivate one another as you share your achievements, challenges, and progress. Together, we create an environment that fosters growth, positivity, and a sense of accomplishment.</p>
+
+                </div>
+                <div class="introduction-img display-sm-none">
+                    <img src="images/overlay1.png" alt="">
+                </div>
+        </div>
+    </section>
+
+
+    <!-- PROGRAMS SECTION -->
+    <section class="programs | padding-block-900" id="programs-section">
+        <div class="container">
+            <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span class="special-text">Programs</span></h2>
+            <div class="items-wrapper | padding-block-700">
+                <div class="program-item">
+                    <img src="images/program-img1.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Strength Taininig</h3>
+                        <p>Strength training is a type of exercise that focuses on increasing your muscle strength and power. </p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/program-img2.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Weight Taininig</h3>
+                        <p>Weight training involves using various forms of resistance to build muscle strength, endurance, and size.</p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/program-img3.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Fat Losing</h3>
+                        <p>Losing fat involves a combination of effective exercise and a balanced diet.</p>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <img src="images/program-img4.jpg" alt="">
+                    <div class="program-item-content">
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Speed Building</h3>
+                        <p>Speed building fitness training involves improving your physical speed, agility, and overall athletic performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Bot -->
+
+    <div class="fix-bottom">
+        <a href="#">
+          <img
+            border="0"
+            alt="Bot"
+            height="150"
+            src="images/bot.png"
+          />
+        </a>
+      </div>
+
+
+    <!-- FOOTER -->
+    <footer class="primary-footer | padding-block-900 bg-secondary" id="contact-section">
+        <div class="container">
+            <div class="even-columns text-center-sm-only">
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Follow us</h4>
+                    <ul class="social-icons " role="list">
+                        <li><a href=""><i class="fa-brands fa-facebook | text-white fs-700"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter | text-white fs-700"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram | text-white fs-700"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin | text-white fs-700"></i></a></li>
+                    </ul>
+                    <a class="logo">
+                        <i class="fa-solid fa-dumbbell"></i>FitHub</a>
+                </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Links</h4>
+                    <ul role="list" class="primary-footer-links">
+                        <li><a href="#primary-navigation">Home</a></li>
+                        <li><a href="#programs-section">Programs</a></li>
+                        <li><a href="E-CommerceWebsite/index.html">Products</a></li>
+                        <li><a href="nutrition/index.html">Nutrition</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="fs-700 uppercase fw-bold">Quick Contacts</h4>
+                    <ul role="list" class="contact-links">
+                        <li><a href=""><i class="fa-solid fa-phone"></i>+93**35***52</a></li>
+                        <li><a href=""><i class="fa-solid fa-envelope"></i></i>429Crew@gmail.com</a></li>
+                        <li><a href=""><i class="fa-solid fa-user"></i>@429Crew</a></li>
+                        <li><a href=""><i class="fa-solid fa-globe"></i>www.crew429.com</a></li>
+                        <li><a href=""><i class="fa-solid fa-location-dot"></i>DSCE, Bangalore -560078</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <h5 class="fs-500 fw-semi-bold text-center"><span class="special-text"><i
+                        class="fa-solid fa-dumbbell"></i>FITHUB</span> Ⓒ 2023 - All Rights Reserved</h5>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

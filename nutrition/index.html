@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitHub - Fitness & Nutrition</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo"> FitHub :Nutri<span class="span">.</span> </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-toggle-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#course" class="navbar-link" data-nav-link>All Course</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact-info" class="navbar-link" data-nav-link
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="open manu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero"
+          aria-label="hero"
+          id="home"
+          data-section
+          style="background-image: url('./assets/images/hero-banner.jpg')"
+        >
+          <div class="container">
+            <p class="hero-subtitle">Fitness & Nutrition</p>
+
+            <h1 class="h1 hero-title">
+              This life style for your fitness, not only diet.
+            </h1>
+
+            <p class="hero-text">
+              It has survived not only five centuries but also
+            </p>
+
+            <div class="social-wrapper">
+              <p class="social-title">Connect with us:</p>
+
+              <ul class="social-list">
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-skype"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" aria-label="service" data-section>
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-1.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Women’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Women’s Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Women’s Courses specially curated concidering all factors
+                    that influence Women’s overall health.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card active">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-2.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Basic Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Basic Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Basic health coursesn that everyone should take for a
+                    healthier Lifestyle and good mind.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/service-3.svg"
+                      width="60"
+                      height="60"
+                      loading="lazy"
+                      alt="Men’s Course"
+                    />
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Men’s Course</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Men’s Courses specially curated concidering all factors that
+                    influence men’s overall health.
+                  </p>
+
+                  <a href="#" class="btn btn-secondary">
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about"
+          aria-label="about"
+          id="about"
+          data-section
+        >
+          <div class="container">
+            <div
+              class="about-banner img-holder"
+              style="--width: 470; --height: 580"
+            >
+              <img
+                src="./assets/images/about-banner.jpg"
+                width="470"
+                height="580"
+                loading="lazy"
+                alt="about banner"
+                class="img-cover"
+              />
+
+              <a href="#" class="btn btn-secondary">Schedule a Meet</a>
+            </div>
+
+            <div class="about-content">
+              <p class="section-subtitle">25+ Years Of Experience</p>
+
+              <h2 class="h2 section-title">
+                We have expert instructor to help our subscribers.
+              </h2>
+
+              <p class="section-text">
+                We are proud to introduce you to our esteemed fitness
+                instructor, Jane Doe, who brings an impressive 25 years of
+                experience to the world of health and fitness. With a
+                deep-rooted passion for wellness and a commitment to helping
+                others achieve their fitness goals
+              </p>
+
+              <h3 class="about-h3">100+ Courses</h3>
+
+              <p class="section-text">
+                Her dedication to constant learning and her unwavering
+                commitment to her clients have been the cornerstones of her
+                success. Through her extensive experience, Jane has gained
+                profound insights into various fitness disciplines and training
+                methodologies, allowing her to tailor her guidance to individual
+                needs.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #COURSE
+      -->
+
+        <section
+          class="section course"
+          aria-label="course"
+          id="course"
+          data-section
+        >
+          <div class="container">
+            <div class="title-wrapper">
+              <p class="section-subtitle">100+ Courses Available</p>
+
+              <h2 class="h2 section-title">Fitness & Nutrition Courses</h2>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-1.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Children Nutrition and Cooking"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="98">$98</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.coursera.org/learn/childnutrition"
+                        class="card-link"
+                      >
+                        By: <span class="span">Ryan Patterson</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.coursera.org/learn/childnutrition"
+                        class="card-title"
+                        >Children Nutrition and Cooking</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT8H20M">08 hr 20 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">28 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-2.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Introduction to Food and Health."
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="0">free</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.coursera.org/learn/food-and-health"
+                        class="card-link"
+                      >
+                        By: <span class="span">Arlene Daniels</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.coursera.org/learn/food-and-health"
+                        class="card-title"
+                        >Introduction to Food and Health.</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT9H25M">09 hr 25 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">16 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-3.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Nutrition and Lifestyle in Pregnancy"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="10">$10</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.coursera.org/learn/nutrition-pregnancy"
+                        class="card-link"
+                      >
+                        By: <span class="span">Selina Benton</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.coursera.org/learn/nutrition-pregnancy"
+                        class="card-title"
+                        >Nutrition and Lifestyle in Pregnancy</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT3H38M">03 hr 38 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">18 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-4.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Expertise on Fitness, Nutrition and Health"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="98">$98</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.udemy.com/course/holistic-health-nutrition-certification-diploma/"
+                        class="card-link"
+                      >
+                        By: <span class="span">Ryan Patterson</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.udemy.com/course/holistic-health-nutrition-certification-diploma/"
+                        class="card-title"
+                        >Expertise on Fitness, Nutrition and Health</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT2H16M">02 hr 16 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">14 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-5.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Hacking exercise for health new science of fitness"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="72">$72</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.coursera.org/learn/hacking-exercise-health?page=6&index=prod_all_launched_products_term_optimization&completeMode=undefined&authType=google&utm_source=bg&utm_medium=sem&utm_campaign=B2C_INDIA___FTCOF__arte_bing_branded&utm_content=B2C_INDIA___FTCOF__arte_bing_branded&campaignid=415374026&adgroupid=1221557894734029&device=c&keyword=https%3A%2F%2Fwww.coursera.org%2F&matchtype=b&network=o&devicemodel=&adpostion=&creativeid=&hide_mobile_promo=&msclkid=de123057472e162d782f548959827ba6&utm_term=https%3A%2F%2Fwww.coursera.org%2F"
+                        class="card-link"
+                      >
+                        By: <span class="span">Arlene Daniels</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.coursera.org/learn/hacking-exercise-health?page=6&index=prod_all_launched_products_term_optimization&completeMode=undefined&authType=google&utm_source=bg&utm_medium=sem&utm_campaign=B2C_INDIA___FTCOF__arte_bing_branded&utm_content=B2C_INDIA___FTCOF__arte_bing_branded&campaignid=415374026&adgroupid=1221557894734029&device=c&keyword=https%3A%2F%2Fwww.coursera.org%2F&matchtype=b&network=o&devicemodel=&adpostion=&creativeid=&hide_mobile_promo=&msclkid=de123057472e162d782f548959827ba6&utm_term=https%3A%2F%2Fwww.coursera.org%2F"
+                        class="card-title"
+                        >Hacking exercise for health new science of fitness</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT6H12M">06 hr 12 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">35 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="course-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 350; --height: 300"
+                  >
+                    <img
+                      src="./assets/images/courses-6.jpg"
+                      width="350"
+                      height="300"
+                      loading="lazy"
+                      alt="Designing Your Personal Weight Loss Plan"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <data class="card-price" value="68">$68</data>
+
+                    <p class="card-author">
+                      <a
+                        href="https://www.coursera.org/learn/weight-loss-plan"
+                        class="card-link"
+                      >
+                        By: <span class="span">Selina Benton</span>
+                      </a>
+                    </p>
+
+                    <h3 class="h3">
+                      <a
+                        href="https://www.coursera.org/learn/weight-loss-plan"
+                        class="card-title"
+                        >Designing Your Personal Weight Loss Plan</a
+                      >
+                    </h3>
+
+                    <ul class="card-meta-list">
+                      <li class="card-meta-item">
+                        <time datetime="PT9H34M">09 hr 34 mins</time>
+                      </li>
+
+                      <li class="card-meta-item">
+                        <p class="card-meta-text">28 Lectures</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" aria-label="blog" id="blog" data-section>
+          <div class="container">
+            <div class="title-wrapper">
+              <p class="section-subtitle">Our Blog Post</p>
+
+              <h2 class="h2 section-title">Latest Article of Nutrition</h2>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2022-02-24">
+                      <span class="span">03</span> Aug 2023
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a
+                          href="https://www.sciencedaily.com/releases/2023/08/230808110925.htm"
+                          class="card-link"
+                        >
+                          By: <span class="span">Maddie Rife</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">87 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">58 Share</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a
+                      href="https://www.sciencedaily.com/releases/2023/08/230808110925.htm"
+                      class="card-title"
+                      >Irregular Sleep Patterns Associated With Harmful Gut
+                      Bacteria</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Researchers have found wheat gluten causes brain
+                    inflammation in ...
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2022-02-24">
+                      <span class="span">28</span> Jul 2023
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a
+                          href="https://www.sciencedaily.com/releases/2023/07/230728113401.htm"
+                          class="card-link"
+                        >
+                          By: <span class="span">George R</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">87 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">58 Share</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a
+                      href="https://www.sciencedaily.com/releases/2023/07/230728113401.htm"
+                      class="card-title"
+                      >Alternative Cellular 'Fuels' Boost Immunity
+                    </a>
+                  </h3>
+
+                  <p class="card-text">
+                    A metabolic by-product that is more prevalent during fasting
+                    may supercharge immune cells as they fight infection and
+                    disease, reports an early stage study.....
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <div class="wrapper">
+                    <time class="publish-date" datetime="2022-02-24">
+                      <span class="span">24</span> Feb 2023
+                    </time>
+
+                    <div>
+                      <div class="card-author">
+                        <a
+                          href="https://www.sciencedaily.com/releases/2023/07/230725171933.htm"
+                          class="card-link"
+                        >
+                          By: <span class="span">Zahra Rashid</span>
+                        </a>
+                      </div>
+
+                      <ul class="card-meta-list">
+                        <li class="card-meta-item">
+                          <p class="item-text">87 Likes</p>
+                        </li>
+
+                        <li class="card-meta-item">
+                          <p class="item-text">58 Share</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <h3 class="h3">
+                    <a
+                      href="https://www.sciencedaily.com/releases/2023/07/230725171933.htm"
+                      class="card-title"
+                      >Protein Found to Protect Females Against Obesity</a
+                    >
+                  </h3>
+
+                  <p class="card-text">
+                    Using a mouse model of high fat diet-induced obesity, a team
+                    of scientists has found that, compared to males, female mice
+                    are protected against obesity...
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #APP
+      -->
+
+        <section class="section app" aria-label="app" data-section>
+          <div class="container">
+            <div class="app-card">
+              <p class="section-subtitle">Mobile App coming soon</p>
+
+              <h2 class="h2 section-title"></h2>
+
+              <div class="wrapper">
+                <a href="#" class="app-link" aria-label="play store">
+                  <img
+                    src="./assets/images/play-store.jpg"
+                    width="134"
+                    height="38"
+                    loading="lazy"
+                    alt="Play Store"
+                    class="img"
+                  />
+                </a>
+
+                <a href="#" class="app-link" aria-label="app store">
+                  <img
+                    src="./assets/images/app-store.jpg"
+                    width="132"
+                    height="38"
+                    loading="lazy"
+                    alt="App Store"
+                    class="img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section" data-section>
+        <div class="container">
+          <div class="footer-list">
+            <p class="footer-list-title">Subscribe Newsletter</p>
+
+            <p class="footer-list-text"></p>
+
+            <form action="" class="footer-form" id="contact-info">
+              <input
+                type="email"
+                name="email_address"
+                aria-label="email"
+                placeholder="Enter email"
+                required
+                class="email-field"
+              />
+
+              <button type="submit" class="btn btn-secondary">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">All Courses</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Daily Exercise</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Find Your Balance</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Personal Program</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Natural Process</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Immune System</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Gives You Energy</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Help Links</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Discussion</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms & Conditions</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Customer Support</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Course FAQ’s</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Online Classes</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Opening Hours</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Mon-Fri: 9 AM – 6 PM</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Saturday: 9 AM – 4 PM</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sunday: Closed</a>
+            </li>
+
+            <li>
+              <p class="footer-list-title address-title">Location</p>
+            </li>
+
+            <li>
+              <address class="address">
+                128, Dayananda Sagar College of Engineering<br />
+                Bangalore-560078
+              </address>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2023 FitHub Made With
+            <ion-icon name="heart" aria-hidden="true"></ion-icon> by
+            <a href="#" class="copyright-link">429 Crew</a>
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Terms of Service</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Sitemap</a>
+            </li>
+
+            <li class="footer-bottom-item">
+              <a href="#" class="footer-bottom-link">Security</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
