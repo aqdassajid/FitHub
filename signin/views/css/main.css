@@ -1,0 +1,28 @@
+body {
+  text-align: center !important;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 30px;
+}
+input {
+  text-align: center;
+}
+#LangTable {
+  margin-bottom: 15px;
+}
+.form-card {
+  background-color: hsl(113, 42%, 67%);
+  border-radius: 10px;
+  margin-top: 130px;
+}
+.mssg {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
